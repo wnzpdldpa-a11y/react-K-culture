@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  padding: 100px;
+}
+
+header {
+  margin-bottom: 30px;
+  border-bottom: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 34px;
+  color: darkred;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+section {
+  padding: 50px;
+}
+
+section h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}

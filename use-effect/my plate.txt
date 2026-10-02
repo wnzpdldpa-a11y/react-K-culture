@@ -1,0 +1,15 @@
+1. component
+2. props
+3. state
+4. 조건부 렌더링-삼항연산자
+5. map
+6. router
+7. useEffect
+_onClick -> user의 이벤트
+-> 특정 값이 바뀌었을때 자동으로 코드를 실행
+
+
+-자바스크립트 시간/날짜 객체
+-setInterval() -> 일정시간마다 반복실행
+
+-clearInterval() -> 반복을 중지

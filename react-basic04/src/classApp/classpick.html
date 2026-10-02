@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            background-color: #DCDCDC;
+            padding: 20px 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        span {
+            display: block;
+            margin: 0;
+        }
+
+        .title {
+            padding-bottom: 25px;
+        }
+
+        .title span {
+            font-size: 10px;
+            color: gray;
+        }
+
+        .sub-title {
+            padding-bottom: 20px;
+        }
+
+        .sub-title span {
+            font-size: 10px;
+            color: gray;
+        }
+
+        .classCardContainer {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .class-card {
+            background-color: white;
+            border: 1px solid #DCDCDC;
+            border-radius: 5px;
+            padding: 25px 25px;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            padding: 10px 40px;
+            border-radius: 5px;
+        }
+
+        .card {
+            margin: 0 10px;
+            background-color: skyblue;
+            border-radius: 5px;
+            padding: 10px 20px;
+            width: 35px;
+            color: blue;
+        }
+
+        .startCard {
+            margin: 0 10px;
+            background-color: aquamarine;
+            border-radius: 5px;
+            padding: 10px 20px;
+            width: 35px;
+            color: green;
+        }
+
+        p {
+            color: gray;
+        }
+
+        .price {
+            font-weight: 900;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <span>ONLINE CLASS</span>
+        <h1>오늘부터 시작하는 실무 클래스</h1>
+        <span>관심 있는 강의를 수강 신청해보세요</span>
+    </div>
+
+    <div class="sub-title">
+        <h2>추천 클래스</h2>
+        <span>기초부터 차근차근 시작해보세요</span>
+    </div>
+    <div class="classCardContainer">
+        <div class="class-card">
+            <span class="card">입문</span>
+            <h3>처음 시작하는 웹 디자인</h3>
+            <p>레이아웃과 색상, 타이포그래피의 기본을 배웁니다.</p>
+            <p class="price">39,000원</p>
+            <button>수강신청</button>
+        </div>
+        <div class="class-card">
+            <span class="startCard">초급</span>
+            <h3>JavaScript UI 만들기</h3>
+            <p>버튼, 탭, 모달 등 웹 UI의 동작을 직접 만들어봅니다.</p>
+            <p class="price">45,000원</p>
+            <button>수강신청</button>
+        </div>
+        <div class="class-card">
+            <span class="startCard">초급</span>
+            <h3>React 컴포넌트 기초</h3>
+            <p>컴포넌트와 Props, State의 기본 원리를 익힙니다.</p>
+            <p class="price">52,000원</p>
+            <button>수강신청</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

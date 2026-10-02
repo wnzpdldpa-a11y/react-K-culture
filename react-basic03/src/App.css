@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ebe3e5;
+}
+
+header,
+section,
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.Intro {
+  padding: 0 80px;
+  border: 1px solid #bbb;
+  border-width: 0 1px;
+}
+
+.subText {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.subText {
+  line-height: 1.6;
+}
+
+button {
+  background: darkslateblue;
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+footer {
+  padding: 20px 0;
+  background: lightslategray;
+  color: #fff;
+  text-align: center;
+}
+
+/* 공통 */
+.width {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.grid-card {
+  padding: 25px;
+  border: 1px solid #bbb;
+  border-radius: 12px;
+}
+
+.grid-card * {
+  margin-bottom: 20px;
+}

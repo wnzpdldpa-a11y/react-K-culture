@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+main {
+    padding: 80px 0;
+}
+
+main .title-area {
+    margin-bottom: 40px;
+}
+
+main .title-area span {
+    display: block;
+    margin-bottom: 5px;
+    color: #118AB2
+}
+
+main .title-area h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+main h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+main h3+p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.classList .card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.classList .level {
+    padding: 6px 10px;
+    border-radius: 20px;
+    background: #D9EFBD;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.classList .card:nth-child(2) .level {
+    background: #B0CDE6;
+}
+
+.classList .card:nth-child(3) .level {
+    background: #E2B4BD;
+}
+
+.classList .class-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.classList .desc {
+    margin-bottom: 40px;
+}
+
+.classList .price {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.classList .apply-btn {
+    background: #413333;
+    color: #fff;
+}
+
+/* state UI */
+.apply-box {
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.apply-box .count-wrap {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.count-box {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    margin: 12px 0;
+}
+
+.count-box button {
+    width: 36px;
+    height: 36px;
+
+    border: 1px solid #ccc;
+    background: #C5C1C1;
+
+    cursor: pointer;
+}
+
+.count-box span {
+    font-weight: bold;
+}
+
+.complete {
+    font-size: 14px;
+    color: #555;
+}
